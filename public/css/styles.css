@@ -17,7 +17,6 @@ body {
     width: 100%;
     background: rgba(70,70,70, 0.8);
     color: #fff;
-    clear: both;
 }
 
 .logo {
@@ -35,6 +34,11 @@ body {
 }
 
 .nav li:hover {
+    color: teal;
+    cursor: pointer;
+}
+
+.nav a:hover {
     color: teal;
     cursor: pointer;
 }
@@ -82,9 +86,9 @@ h1 {
 }
 
 .portfolio-contain {
-    clear: both;
     width: 80%;
-    margin: 100px auto 0 auto;
+    margin-top: 100px;
+    text-align: center;
 }
 
 .one-piece {
@@ -92,8 +96,13 @@ h1 {
     margin: 0 auto;
 }
 
+.one-piece p {
+    margin: 0 auto;
+    width: 500px;
+}
+
 video {
-    height: 500px;
+    height: 100%;
     width: 500px;
     border: 5px solid #fff;
     padding-top: 0;
@@ -102,4 +111,9 @@ video {
 #video-port {
     padding: 0;
     margin: 0;
+}
+
+#port-title {
+    font-size: 18px;
+    text-decoration: underline;
 }

@@ -1,16 +1,20 @@
-<div class="portfolio-contain">
+<div class="portfolio-contain" ng-controller="portfolioCtrl">
 
     <div class="one-piece">
     
       <div class="port-vid">
-        <video autoplay loop id="video-port" muted>
-          <source src="../2015-12-25%2011-20-13.mp4" type="video/mp4">
-        </video>
+        <a href="http://provohousinghub.herokuapp.com"> 
+          
+          <video src="../2015-12-25%2011-20-13.mp4" type="video/mp4" autoplay loop id="video-port" muted>
+          </video>
+            
+        </a>
       </div>
-        
-        
-        PROVO HOUSING HUB.
-        <p>Made using the MEAN stack: MongoDB, ExpressJS, AngularJS, node.js. Also utilized passport-facebook and Amazon s3 for image hosting.</p>
+     
+    
+        <p id="port-title">PROVO HOUSING HUB</p>
+        <br/>
+        <p>Made using the MEAN stack: MongoDB, ExpressJS, AngularJS, node.js. Also utilized passport-facebook for user authentication, and Amazon s3 for image hosting.</p>
     
     
     </div>
