@@ -81,24 +81,28 @@ h1 {
 }
 
 .nav a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+
 }
 
 .portfolio-contain {
     width: 80%;
-    margin-top: 100px;
     text-align: center;
+    clear: both;
+    margin: 100px auto 0 auto;
+
 }
 
 .one-piece {
-    width: 400px;
+    width: 600px;
     margin: 0 auto;
+    
 }
 
 .one-piece p {
     margin: 0 auto;
-    width: 500px;
+    width: 350
 }
 
 video {
@@ -109,11 +113,20 @@ video {
 }
 
 #video-port {
-    padding: 0;
-    margin: 0;
 }
 
 #port-title {
     font-size: 18px;
     text-decoration: underline;
+}
+
+#port-title:hover {
+    color: teal;
+}
+
+.kyle-logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
