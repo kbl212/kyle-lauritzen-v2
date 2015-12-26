@@ -19,6 +19,12 @@ app.config(function($stateProvider, $urlRouterProvider) {
         
     })
     
+    .state('resume', {
+        url: '/resume',
+        templateUrl: 'views/resumeTmpl.html',
+        controller: 'resumeCtrl'
+    })
+    
     $urlRouterProvider
         .otherwise('/');
     

@@ -118,6 +118,7 @@ video {
 #port-title {
     font-size: 18px;
     text-decoration: underline;
+    color: #fff;
 }
 
 #port-title:hover {
@@ -129,4 +130,12 @@ video {
     width: 100px;
     margin-left: 15px;
     margin-top: 10px;
+}
+
+#resume-title {
+    font-size: 36px;
+}
+
+.resume-btn {
+    color: #fff;
 }
