@@ -12,6 +12,15 @@ body {
     background-size: cover; 
 }
 
+button {
+    width: 200px;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
 .front-page {
     height: 100%;
     width: 100%;
@@ -116,7 +125,7 @@ video {
 }
 
 #port-title {
-    font-size: 18px;
+    font-size: 24px;
     text-decoration: underline;
     color: #fff;
 }
@@ -137,5 +146,24 @@ video {
 }
 
 .resume-btn {
+    color: #fff;
+}
+
+.contact-btn {
+    color: #fff;
+}
+
+#facebook-btn:hover {
+    background-color: #405D9A;
+    color: #fff;
+}
+
+#linkedin-btn:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+#email-btn:hover {
+    background-color: #EC4335;
     color: #fff;
 }

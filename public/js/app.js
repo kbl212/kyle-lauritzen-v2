@@ -25,6 +25,18 @@ app.config(function($stateProvider, $urlRouterProvider) {
         controller: 'resumeCtrl'
     })
     
+    .state('about', {
+        url: '/about',
+        templateUrl: 'views/aboutTmpl.html',
+        controller: 'aboutCtrl'
+    })
+    
+    .state('contact', {
+        url: '/contact',
+        templateUrl: 'views/contactTmpl.html',
+        controller: 'contactCtrl'
+    })
+    
     $urlRouterProvider
         .otherwise('/');
     
