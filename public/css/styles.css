@@ -76,6 +76,7 @@ h1 {
 .center-info {
     margin-top: 50px;
     text-align: center;
+    clear:both;
 }
 
 .center-info button {
@@ -165,4 +166,39 @@ video {
 #email-btn:hover {
     background-color: #EC4335;
     color: #fff;
+}
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+    
+    .nav li {
+        display:block;
+        margin-bottom: 10px;
+    }
+    
+    .prof-pic {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .one-piece {
+        width: 80%;
+    }
+    
+    video {
+        width: 80%;
+    }
+    
+    #facebook-btn, #email-btn, #linkedin-btn {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
 }
