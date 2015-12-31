@@ -1,0 +1,25 @@
+{
+  "name": "kyle-lauritzen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kbl212/kyle-lauritzen.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kbl212/kyle-lauritzen/issues"
+  },
+  "homepage": "https://github.com/kbl212/kyle-lauritzen#readme",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.3.4"
+  }
+}
