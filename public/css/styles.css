@@ -172,6 +172,29 @@ video {
     color: #fff;
 }
 
+.about-me-contain {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.about-me-contain p {
+    text-align: left;
+}
+
+#byu-logo {
+    height: 100px;
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#dev-mtn-logo {
+    height: 75px;
+    width: 200px;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -209,4 +232,10 @@ video {
         margin-bottom: 10px;
     }
     
+}
+
+@media screen and (max-width: 540px) {
+    .online-resume-btn {
+        display: none;
+    }
 }
