@@ -195,6 +195,10 @@ video {
     margin: 0 0 20px 20px;
 }
 
+.alt-port-image {
+    display:none;
+}
+
 
 /* MEDIA QUERIES */
 
@@ -237,5 +241,25 @@ video {
 @media screen and (max-width: 540px) {
     .online-resume-btn {
         display: none;
+    }
+    
+    video {
+        display:none;
+    }
+    
+    .alt-port-image {
+        display: block;
+        height: 200px;
+        width: 300px;
+        border: 5px solid #fff;
+        padding-top: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .alt-port-image {
+        height: 150px;
+        width: 200px;
     }
 }
